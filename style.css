@@ -24,6 +24,13 @@ body {
     color: #fff;
 }
 
+.aboutMe {
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -167,7 +174,10 @@ footer {
     height: 90vh;
 }
 
-
+.myPic img {
+    width:100%;
+    height:auto;
+}
 @media (min-width: 800px) {
     .hero {
         flex-direction: row;
